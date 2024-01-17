@@ -28,3 +28,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ### link parametro
 router-link :to="{ name: 'about', params: { teamId: item.raw.team.id } }" style="text-decoration: none;">
 
+mounted() {const teamId = this.$route.params.teamId;}
+
