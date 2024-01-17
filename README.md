@@ -25,5 +25,5 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-<router-link :to="{ name: 'about', params: { teamId: item.raw.team.id } }" style="text-decoration: none;">
+### <router-link :to="{ name: 'about', params: { teamId: item.raw.team.id } }" style="text-decoration: none;">
 
